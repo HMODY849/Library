@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/library-icon.jpeg">
+    <title>Library</title>
+</head>
+<body>
+    <div class="contenar">
+        <div class="header" id="head">
+            <h2>Library</h2>
+            <button class="add" id="add">Add</button>
+        </div>
+        <div id="father">
+        <form action="#" method="post" id="form" class="none">
+            <p class="n-b">New Book</p>
+            <div id="book">
+                <label for="bookName">Book Name:</label>
+                <input type="text" name="title" id="bookName" required>
+            </div>
+            <div class="author">
+                <label for="author">Author:</label>
+                <input type="text" name="author" id="author" required>
+            </div>
+            <div class="number">
+                <div class="pages">
+                    <label for="pages">Pages:</label>
+                    <input type="number" name="pages" id="pages" required>
+                </div>
+                <div class="rating">
+                    <label for="number">Rating:</label>
+                    <input type="number" name="number" id="number" max="10" required>
+                </div>
+            </div>
+            <button class="add add2" id="add2" type="button">Add</button>
+        </form>
+        </div>
+        <div class="roof" id="roof">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
